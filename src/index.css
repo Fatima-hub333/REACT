@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 8px 1px #888888;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-items > li {
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.logo {
+  width: 80px;
+}
+
+.footer {
+  background-color: #888888;
+  padding: 20px;
+  font-weight: bolder;
+}
