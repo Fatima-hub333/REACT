@@ -1,5 +1,6 @@
-import React from "react"
-import ReactDOM from "react-dom"
+/* eslint-disable react/no-unescaped-entities */
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 const page = (
   <div>
@@ -8,10 +9,10 @@ const page = (
     <ol>
       <li>It's composable</li>
       <li>It's declarative</li>
-      <li>It's declarativeIt's a hireable skill</li>
+      <li>It's declarative It's a hireable skill</li>
       <li>It's actively maintained by skilled people</li>
     </ol>
   </div>
-)
+);
 
-ReactDOM.render(page, document.getElementById("root"))
+ReactDOM.render(page, document.getElementById('root'));

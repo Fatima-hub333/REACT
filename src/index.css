@@ -1,8 +1,9 @@
+
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 8px 1px #888888;
+  box-shadow: 8px 1px #888;
 }
 
 .nav-items {
@@ -20,7 +21,7 @@
 }
 
 .footer {
-  background-color: #888888;
+  background-color: #888;
   padding: 20px;
   font-weight: bolder;
 }

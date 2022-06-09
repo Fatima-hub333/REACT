@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 // const page = (
 //    <div>
 //       <h1 className="header">This is JSX</h1>
@@ -9,8 +10,8 @@
 //     document.getElementById("root")
 // )
 
-/* 
-Challenge: 
+/*
+Challenge:
 
 Create a navbar in JSX:
     - Use the semantic `nav` element as the parent wrapper
@@ -30,8 +31,8 @@ const navBar = (
       <li>Contact</li>
     </ul>
   </nav>
-)
+);
 
 ReactDOM.render(
-  navBar, document.getElementById("root")
-)
+  navBar, document.getElementById('root'),
+);
